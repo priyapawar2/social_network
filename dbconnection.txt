@@ -1,4 +1,4 @@
-function se_database("localhost", "root", "shriganesh", "socialnetwork") {
+function se_database("localhost", "root", "------", "socialnetwork") {
 
 	  $this->database_connection = $this->database_connect($database_host, $database_username, $database_password);
 	  $this->database_select($database_name);
